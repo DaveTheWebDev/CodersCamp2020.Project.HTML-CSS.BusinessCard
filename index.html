@@ -1,18 +1,242 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>CodersCamp | Projekt 1 - HTML i CSS</title>
-    <meta name="description" content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dave the web dev</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oregano&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet"> 
+<link rel="shortcut icon" href="img/favicon.png?v=2" type="image/x-icon">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-<p>CodersCamp - projekt 1. Tutaj możesz zacząć swoją zabawę!</p>
-<p>TEST commit</p>
+  <header>
+    <div class="logo-container">
+      <img src="./img/logo.svg" alt="logo">
+      <div>
+        <h1><span class="blue">D</span>ave</h1>
+        <h2>the (beginner) <span class="blue">web</span> dev</h2>
+      </div>
+    </div>
+    <div class="welcome-text">
+      <div class="small-img-container">
+        <img src="./img/1small.png" alt="ja" class="img-small">
+      </div>
+      <h2>Cześć!</h2>
+      <p>Mam na imię Dawid i jestem początkującym web developerem.</p>
+      <a href="#portfolio">Sprawdź moje portfolio!</a>
+    </div>
+    <div class="img-container"></div>
+  </header>
+  <main>
+    <section class="about">
+      
+      <div class="about-container">
+        <h2>O mnie:</h2>
+        <div class="about-first">
+          <section class="about-info">
+            <ul>
+              <li>Imię:<span>Dawid</span></li>
+              <li>Wiek:<span>26 lat</span></li>
+              <li>Specjalizacja:<span>Frontend</span></li>
+            </ul>
+          </section>
+          <section><p>Ze względu na panującą na świecię pandemię postanowiłem spróbować swoich sił w programowaniu. pierwsze kroki bardzo mi się spodobały, a rowiązywanie problemów logicznych sprawia mi nie lada przyjemność.<span class="fas fa-smile-wink"></span></p>
+          </section>
+        </div>     
+        <div class="skills-container">
+          <h2>Moje umiejętności:</h2>
+          <ul>
+            <li>
+              <div class="skill-type">
+                <img src="./img/html.png" alt="html logo">
+                HTML5 (BEM)
+              </div>
+              <div class="progress-bar">
+                <span class="green"></span>
+                <span class="green"></span>
+                <span class="green"></span>
+                <span class="green"></span>
+                <span></span>
+              </div>
+              <span class="progress-text">in progress</span>
+            </li>
+            <li>
+              <div class="skill-type">
+                <img src="./img/css.png" alt="css logo">
+                CSS3 (SASS)
+              </div>
+              <div class="progress-bar">
+                <span class="green"></span>
+                <span class="green"></span>
+                <span class="green"></span>
+                <span class="green"></span>
+                <span></span>
+              </div>
+              <span class="progress-text">in progress</span>
+            </li>
+            <li>
+              <div class="skill-type">
+                <img src="./img/js.png" alt="js logo">
+                Javascript
+              </div>
+              <div class="progress-bar">
+                <span class="green"></span>
+                <span class="green"></span>
+                <span class="green"></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="progress-text">in progress</span>
+            </li>
+            <li>
+              <div class="skill-type">
+                <img src="./img/react.png" alt="react logo">
+                React
+              </div>
+              <div class="progress-bar">
+                <span class="yellow"></span>
+                <span class="yellow"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="progress-text yellow">in queue</span>
+            </li>
+            <li>
+              <div class="skill-type">
+                <img src="./img/node.png" alt="node logo">
+                Node.js
+              </div>
+              <div class="progress-bar">
+                <span class="yellow"></span>
+                <span class="yellow"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="progress-text yellow">in queue</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <h2 class="section-name">Projekty, z których jestem dumny:</h2>
+      <div class="projects">
+        <div class="project">
+          <div class="img-wrapper">
+            <img src="./img/projekt2.jpg" alt="projekt 1">
+          </div>
+          <div class="text-wrapper">
+            <h2 class="project-name">Projekt 1</h2>
+            <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea earum quas laborum dolorem perspiciatis exercitationem repellat quod, voluptatem enim aspernatur culpa error ullam assumenda consectetur sapiente aut? Possimus, dicta nihil?</p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="img-wrapper">
+            <img src="./img/projekt1.jpg" alt="projekt 2">
+          </div>
+          <div class="text-wrapper">
+            <h2 class="project-name">Projekt 2</h2>
+            <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea earum quas laborum dolorem perspiciatis exercitationem repellat quod, voluptatem enim aspernatur culpa error ullam assumenda consectetur sapiente aut? Possimus, dicta nihil?</p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="img-wrapper">
+            <img src="./img/projekt3.jpg" alt="projekt 3">
+          </div>
+          <div class="text-wrapper">
+            <h2 class="project-name">Projekt 3</h2>
+            <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea earum quas laborum dolorem perspiciatis exercitationem repellat quod, voluptatem enim aspernatur culpa error ullam assumenda consectetur sapiente aut? Possimus, dicta nihil?</p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="img-wrapper">
+            <img src="./img/projekt4.jpg" alt="projekt 4">
+          </div>
+          <div class="text-wrapper">
+            <h2 class="project-name">Projekt 4</h2>
+            <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea earum quas laborum dolorem perspiciatis exercitationem repellat quod, voluptatem enim aspernatur culpa error ullam assumenda consectetur sapiente aut? Possimus, dicta nihil?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hobby">
+      <h2>Moje zainteresowania to:</h2>
+      <div class="img-gallery">
+        <div class="trip-container">
+          <h3 class="hobby-text">Podróże</h3>
+          <div class="trip-photos">
+            <div class="photo"></div>
+            <div class="photo"></div>
+            <div class="photo"></div>
+            <div class="photo"></div>
+            <div class="photo"></div>
+            <div class="photo"></div>
+            <div class="photo"></div>
+            <div class="photo"></div>
+          </div>
+        </div>
+        <div class="food-container">
+          <h3 class="hobby-text">Dobre jedzenie</h3>
+          <div class="food-photos">
+            <img src="./img/food.jpeg" alt="Jedzenie">
+          </div>
+        </div>
+        <div class="code-container">
+          <h3 class="hobby-text">Programowanie!</h3>
+          <div class="code-photos">
+            <img src="./img/programowanie.jpg" alt="Programowanie">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="contact">
+        <h2>Skontaktuj się ze mną!</h2>
+        <form action="">
+          <div class="input">
+            <input type="text" id="name" name="name" required>
+            <div class="css">
+              <label for="name">Imię</label>
+            </div>
+          </div>
+          <div class="input">
+            <input type="text" id="email" name="email" required>
+            <div class="css">
+              <label for="email">E-mail</label>
+            </div>
+          </div>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Tu wpisz swoją wiadomość."></textarea>
+          <input type="submit" value="Wyślij!"></input>
+        </form>
+        <section class="socials">
+          <div class="social">
+            <span class="fas fa-phone-square social-icon"></span>
+            <a href="tel:+48123453213" class="social-text">123456789</a>
+          </div>
+          <div class="social">
+            <span class="fas fa-envelope social-icon"></span>
+            <a href="mailto:dave@mail.pl" class="social-text">dave@mail.pl</a>
+          </div>
+          <div class="social">
+            <span class="fab fa-github social-icon"></span>
+            <a href="https://github.com/DaveTheWebDev" class="social-text">DaveTheWebDev</a>
+          </div>
+          <div class="social">
+            <span class="fab fa-facebook-square  social-icon"></span>
+            <a href="https://facebook.pl" class="social-text">Dawid FB</a>
+          </div>
+          <div class="social">
+            <span class="fab fa-linkedin social-icon"></span>
+            <a href="" class="social-text">Dawid Li</a>
+          </div>      
+        </section>
+      </div>
+      <div class="name"><span>Dawid Antczak - Coders Camp - 2020</span></div>
+    </footer>
+  </main>
 </body>
 </html>
