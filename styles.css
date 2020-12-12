@@ -255,7 +255,7 @@ header .welcome-text {
 section.about {
   position: relative;
   height: 100vh;
-  background-image: url('./img/code.jpg');
+  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/code.jpg');
   background-size: cover;
 }
 .about::before {
@@ -679,28 +679,28 @@ margin: 20px ;
 grid-row: 4 span;
 }
 .photo:nth-child(1) {
-  background-image: url('./img/trip3.JPG');
+  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip3.JPG');
 }
 .photo:nth-child(2) {
-  background-image: url('./img/trip4.JPG');
+  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip4.JPG');
 }
 .photo:nth-child(3) {
-  background-image: url('./img/trip5.JPG');
+  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip5.JPG');
 }
 .photo:nth-child(4) {
-  background-image: url('./img/trip1.JPG');
+  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip1.JPG');
 }
 .photo:nth-child(5) {
-  background-image: url('./img/trip2.JPG');
+  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip2.JPG');
 }
 .photo:nth-child(6) {
-  background-image: url('./img/trip6.JPG');
+  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip6.JPG');
 }
 .photo:nth-child(7) {
-  background-image: url('./img/trip7.JPG');
+  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip7.JPG');
 }
 .photo:nth-child(8) {
-  background-image: url('./img/trip8.JPG');
+  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip8.JPG');
 }
 .trip-container {
   position: relative;
