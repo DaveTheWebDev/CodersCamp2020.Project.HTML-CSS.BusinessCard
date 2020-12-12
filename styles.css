@@ -637,7 +637,6 @@ margin: 20px ;
   bottom: 0;
   border-bottom: 150vh solid var(--bg-color);
   border-left: 170vw solid transparent ;
-
 }
 .hobby h2 {
     font-family: 'Oswald';
@@ -682,7 +681,7 @@ grid-row: 4 span;
   background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip3.JPG');
 }
 .photo:nth-child(2) {
-  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip4.JPG');
+  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip4.jpg');
 }
 .photo:nth-child(3) {
   background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip5.JPG');
@@ -700,7 +699,7 @@ grid-row: 4 span;
   background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip7.JPG');
 }
 .photo:nth-child(8) {
-  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip8.JPG');
+  background-image: url('https://davethewebdev.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/img/trip8.jpg');
 }
 .trip-container {
   position: relative;
