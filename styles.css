@@ -325,7 +325,6 @@ section.about {
 
 .skills-container h2 {
   margin: 0;
-  color: #eeeeee;
 
 }
 
@@ -669,7 +668,7 @@ margin: 20px ;
   overflow: hidden;
   grid-row: 6 span;
   grid-column: 8 span;
-  transition: 1s;
+  transition: .5s;
   background-size: cover;
   background-position: 50% 50%;
   grid-auto-rows: minmax(25px, 1fr);
@@ -748,7 +747,7 @@ grid-row: 4 span;
   transform: translate(-50%,-50%);
   min-width: 100%;
   min-height: 100%;
-  transition: 1s;
+  transition: .5s;
 }
 .hobby-text:hover+.food-photos img, .hobby-text:hover+.code-photos img  {
   transform: scale(1.05) translate(-50%,-50%);
@@ -787,18 +786,19 @@ grid-row: 4 span;
     font-size: 2.5rem;
   }
   .food-photos img, .code-photos img {
-    transform: translate(-50%,-50%) scale(1.05) ;
+    transform: scale(1.05) translate(-50%,-50%)  ;
   }
 }
 @media (max-width: 460px) {
   .hobby h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    padding: 0 3%;
   }
   .photo {
     background-position: 170% 0%;
   }
   .hobby-text {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
 }
 footer {
@@ -943,11 +943,18 @@ input[type="submit"]:hover {
   font-weight: bold;
   background-color: var(--letter-color);
   font-family: "Oswald";
+  overflow: hidden;
 }
 .name span {
   display: block;
   animation: footerLarge 10s linear both infinite;
 
+}
+.socials a, .socials span {
+  transition: .3s;
+}
+.socials .social:hover a, .socials .social:hover span {
+  color: #76aaf8;
 }
 
 @media (max-width: 1200px) {
@@ -981,6 +988,9 @@ input[type="submit"]:hover {
   }
   .socials {
     flex-basis: 100%;
+  }
+  .name {
+    font-size: 1.2rem;
   }
 }
 
