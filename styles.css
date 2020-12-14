@@ -211,6 +211,7 @@ header .welcome-text {
   header .welcome-text {
     width: 85vw;
     left: calc(50% - 85vw/2);
+    height: 70%;
   }
   header .img-container::before {
     border-right: 70vw solid transparent;
@@ -775,7 +776,6 @@ grid-row: 4 span;
   .photo {
     grid-column: 24 span;
     transform: scale(1.1);
-    background-position: 100% 0%;
   }
   .photo:nth-child(1), .photo:nth-child(2), .photo:nth-child(3) {
     display: none;
@@ -793,9 +793,6 @@ grid-row: 4 span;
   .hobby h2 {
     font-size: 2rem;
     padding: 0 3%;
-  }
-  .photo {
-    background-position: 170% 0%;
   }
   .hobby-text {
     font-size: 1.8rem;
@@ -974,6 +971,7 @@ input[type="submit"]:hover {
   }
   .name span {
     animation-name: footerSmall;
+    animation-duration: 7s;
   }
 }
 @media (max-width: 640px) {
